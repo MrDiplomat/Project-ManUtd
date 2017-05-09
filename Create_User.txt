@@ -1,0 +1,1 @@
+CREATE TABLE `MANUTD`.`User` ( `user_id` INT NOT NULL AUTO_INCREMENT , `user_name` VARCHAR(20) NOT NULL , `user_password` VARCHAR(20) NOT NULL , `favourite_Player` VARCHAR(30) NOT NULL , PRIMARY KEY (`user_id`, `user_password`)) ENGINE = InnoDB;
